@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 3-infinite_add.py
-# Toriola Samuel 
+# Toriola Samuel
 
 if __name__ == "__main__":
     import sys
