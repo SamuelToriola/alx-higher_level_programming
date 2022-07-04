@@ -1,6 +1,6 @@
-#!/usr/bin/pythoni3
+#!/usr/bin/python3
 # 4-new_in_list.py
-# Toriola Samuel
+# Toriola samuel 
 
 
 def new_in_list(my_list, idx, element):
