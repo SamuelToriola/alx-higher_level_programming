@@ -1,6 +1,6 @@
 /*
  * File: 103-python.c
- * Author: Yovo Koffi Vianney
+ * Author: Toriola Samuel
  */
 
 #include <Python.h>
