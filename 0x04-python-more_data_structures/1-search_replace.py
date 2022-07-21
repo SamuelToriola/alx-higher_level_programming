@@ -1,12 +1,4 @@
 #!/usr/bin/python3
-# 1-search_replace.py
-# Toriola Samuel
-
-
 def search_replace(my_list, search, replace):
-    """Replace all occurrences of an element by another in a new list."""
-    new_list = my_list[:]
-    for i in range(len(new_list)):
-        if new_list[i] == search:
-            new_list[i] = replace
-    return (new_list)
+    response = [num if num != search else replace for num in my_list]
+    return response

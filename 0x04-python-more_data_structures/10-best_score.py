@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 # 10-best_score.py
 # Toriola Samuel
 
@@ -15,3 +16,14 @@ def best_score(a_dictionary):
             big = v
             ret = k
     return (ret)
+=======
+def best_score(a_dictionary):
+    if a_dictionary is not None:
+        students_number = len(a_dictionary.values())
+        if students_number > 0:
+            score = max(a_dictionary.values())
+            for key in a_dictionary.keys():
+                if a_dictionary[key] == score:
+                    return key
+    return None
+>>>>>>> 6a930072f1b2ea8f27ef8504aaaaaf6ffe9037c8
