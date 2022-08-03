@@ -1,12 +1,13 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """ This is a python fuction
 that read a file """
 
-
 def read_file(filename=""):
-    """ This function takes a filename(string)
-    as an argument, create a file with the name
-    and read the content stored in it
-    """
-    with open(filename, encoding="utf-8") as f:
-        print(f.read(), end="")
+   
+    with open(filename.txt,'w', encoding="utf-8") as fw:
+            fw.write('Something\n')
+            fw.close()
+            fr = open(filename.txt ,'r', encoding="utf-8")
+            file = fr.read()
+            print(file , end="")
+            fr.close()
