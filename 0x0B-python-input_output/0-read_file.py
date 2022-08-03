@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-""" This is a python fuction
-that read a file """
+# 0-read_file.py
+"""Defines a text file-reading function."""
 
 
 def read_file(filename=""):
-    """ This function takes a filename(string)
-    as an argument, create a file with the name
-    and read the content stored in it
-    """
+    """Print the contents of a UTF8 text file to stdout."""
     with open(filename, encoding="utf-8") as f:
         print(f.read(), end="")
