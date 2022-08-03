@@ -4,10 +4,11 @@ that read a file """
 
 def read_file(filename=""):
    
-    with open(filename.txt,'w', encoding="utf-8") as fw:
-            fw.write('Something\n')
+    with open('filename','w',encoding="utf-8") as fw:
+            fw.write('hello world !')
             fw.close()
-            fr = open(filename.txt ,'r', encoding="utf-8")
-            file = fr.read()
-            print(file , end="")
+    with open('filename','r', encoding="utf-8") as fr:
+            print(fr.read())
             fr.close()
+
+read_file()
