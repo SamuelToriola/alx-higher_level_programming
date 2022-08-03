@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """load, save, and add"""
 from sys import argv
